@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: 'Figtree';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 1.6rem;
+  padding: 2.5rem;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: .8rem .8rem 0 hsl(0, 0%, 7%);
+  font-size: 1.4rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card__image {
+  border-radius: 15px;
+}
+
+
+.card__learning {
+  margin-top: 1.5rem;
+  padding: .7rem 1.5rem;
+  background-color: hsl(47, 88%, 63%);
+  align-self: flex-start;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+
+.card__fundations {
+  font-size: 2rem;
+  color: hsl(0, 0%, 7%);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card__fundations:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+
+.card__description {
+  color: hsl(0, 0%, 50%);
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__author-img {
+  width: 3.5rem;
+}
+
+.card__author-auth {
+  font-weight: 700;
+}
+
+
+
+
+/* //// MOBILE //// */
+
+@media (max-width: 31.25em) {
+  .card {
+    width: 70%;
+  }
+}
