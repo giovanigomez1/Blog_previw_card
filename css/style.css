@@ -86,5 +86,9 @@ body {
 @media (max-width: 31.25em) {
   .card {
     width: 70%;
+    font-size: 1.3rem;
+  }
+  .card__fundations {
+    font-size: 1.6rem;
   }
 }
