@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/giovanigomez1/Blog_previw_card)
-- Live Site URL: [Add live site URL here](https://blog-preview-cbf65b.netlify.app/)
+- Solution URL: [Solution](https://github.com/giovanigomez1/Blog_previw_card)
+- Live Site URL: [Live site URL](https://blog-preview-cbf65b.netlify.app/)
 
 ## My process
 
@@ -47,7 +47,7 @@ HTML structure, Css flexbox, Css Bem notation.
 
 ### Continued development
 
-I will keep practicing Front End skills, specially focus on Prepocesors, Javascript and React JS.
+Keep practicing Front End skills, specially focus on Prepocesors, Javascript and React JS.
 
 ## Author
 
